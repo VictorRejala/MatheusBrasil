@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/brinquedos.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/showeventos.png">
+    <title>Brinquedos</title>
+</head>
+<body>
+
+    <header>
+        <div class="topo">
+            <div class="limitar-container container">
+                <a href="index.html" class="titulo">Show <span>Eventos</span> <img  class="logo" src="img/showeventos.png" alt=""></a>
+                <div>
+                    <a class="link" href="index.html">Página Principal</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="limitar-container">
+        <section class="product-list">
+
+            <div onclick="selectImage(event)" class="product-list__card active">
+                <a  class="product-list__link" id="piscina-bolas">
+                    <img class="image" src="img/piscina-publi.png">
+                    
+                </a>
+                <footer class="product-item__footer">
+                    <h2 class="product-item__name">
+                        Piscina de Bolas
+                    </h2>
+                    <p class="product-item__price">
+                        R$ 150
+                    </p>
+                </footer>
+            </div>
+
+            <div onclick="selectImage(event)" class="product-list__card">
+                <a  class="product-list__link" id="pula-pula">
+                    <img class="image" src="img/cama-publi.png">     
+                </a>
+
+                <footer class="product-item__footer">
+                    <h2 class="product-item__name">
+                        Cama Elástica
+                    </h2>
+                    <p class="product-item__price">
+                        R$ 230
+                    </p>
+                </footer>
+            </div>
+
+            <div onclick="selectImage(event)" class="product-list__card">
+                <a  class="product-list__link">
+                    <img class="image" src="img/toboga.png" id="Inflavel">
+                </a>
+                <footer class="product-item__footer">
+                    <h2 class="product-item__name">
+                       Tobogã Inflavel
+                    </h2>
+                    <p class="product-item__price">
+                        R$ 750
+                    </p>
+                </footer>
+            </div>
+
+            <div onclick="selectImage(event)" class="product-list__card">
+                <a  class="product-list__link" id="piscina-bolas">
+                    <img class="image" src="img/MultiPlay.png">
+                    
+                </a>
+                <footer class="product-item__footer">
+                    <h2 class="product-item__name">
+                        Piscina de Bolas
+                    </h2>
+                    <p class="product-item__price">
+                        R$ 450
+                    </p>
+                </footer>
+            </div>
+
+            <div onclick="selectImage(event)" class="product-list__card">
+                <a  class="product-list__link" id="pula-pula">
+                    <img class="image" src="img/Escorregas.png">     
+                </a>
+
+                <footer class="product-item__footer">
+                    <h2 class="product-item__name">
+                        Escorrega
+                    </h2>
+                    <p class="product-item__price">
+                        R$ 60
+                    </p>
+                </footer>
+            </div>
+
+            <div onclick="selectImage(event)" class="product-list__card">
+                <a  class="product-list__link">
+                    <img class="image" src="img/Pebolim.png" id="Inflavel">
+                </a>
+                <footer class="product-item__footer">
+                    <h2 class="product-item__name">
+                       Pebolim
+                    </h2>
+                    <p class="product-item__price">
+                        R$ 130
+                </footer>
+            </div>
+
+        </section>
+
+        <section id="picture">
+
+           <div class="box-image">
+            <img src="img/piscina-publi.png" alt="">
+           </div>
+            
+        </section>
+
+
+      
+    </main>
+    <footer class="footer">
+  
+        <a href="contato.html"> Entre em Contato Agora e Reserve o Seu !!!</a> 
+
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
